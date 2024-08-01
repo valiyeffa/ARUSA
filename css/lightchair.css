@@ -1,0 +1,136 @@
+main {
+
+    .native-light-chair {
+        width: 100%;
+        background-color: #384353;
+        margin-top: 30px;
+
+        .light-chair {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: center;
+
+            .info-chair {
+                width: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+
+                .about-chair {
+                    width: 450px;
+                    color: white;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    gap: 50px;
+
+                    h4 {
+                        font-family: Reckless Neue;
+                        font-size: 36px;
+                    }
+
+                    p {
+                        font-family: Neue Montreal;
+                        font-size: 15px;
+                        letter-spacing: 1px;
+                    }
+
+                    button {
+                        color: white;
+                        background-color: #384353;
+                        border: none;
+                        font-family: Neue Montreal;
+                        padding: 7px;
+
+
+                        &:hover {
+                            border-bottom: 1px solid white;
+                        }
+                    }
+
+                }
+
+            }
+
+            .chair-photo {
+                img {
+                    width: 720px;
+                }
+            }
+        }
+
+    }
+}
+
+
+@media (max-width: 376px) {
+    main {
+
+        .native-light-chair {
+            width: 100%;
+            background-color: #384353;
+            margin: 30px 0;
+
+            .light-chair {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+
+                .info-chair {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 343px;
+                    height: 693.18px;
+
+                    .about-chair {
+
+                        color: white;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: start;
+                        gap: 48px;
+
+                        h4 {
+                            font-family: Reckless Neue;
+                            font-size: 36px;
+                        }
+
+                        p {
+                            font-family: Neue Montreal sm;
+                            font-size: 15px;
+                            letter-spacing: 1px;
+                        }
+
+                        button {
+                            color: white;
+                            background-color: #384353;
+                            border: none;
+                            font-family: Neue Montreal sm;
+                            padding: 7px;
+
+
+                            &:hover {
+                                border-bottom: 1px solid white;
+                            }
+                        }
+
+                    }
+
+                }
+
+                .chair-photo {
+                    margin-bottom: 30px;
+
+                    img {
+                        width: 343px;
+                    }
+                }
+            }
+
+        }
+    }
+}

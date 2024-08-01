@@ -1,0 +1,292 @@
+main {
+    .lookbook {
+        background-color: #384353;
+        color: #F5F4F3;
+        width: 100%;
+
+        .inside-lookbook {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .lookbook-title {
+                width: 2%;
+                margin-top: 700px;
+
+                p {
+                    font-family: Reckless Neue;
+                    font-size: 24px;
+                    letter-spacing: -0.02em;
+                    text-align: center;
+                    transform: rotate(-90deg);
+                }
+            }
+
+            .lookbook-text {
+                width: 54%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+
+                h3 {
+                    font-family: Reckless Neue;
+                    font-size: 56px;
+                    letter-spacing: -0.04em;
+                    text-align: center;
+                }
+
+                p {
+                    width: 414px;
+                    font-family: Neue Montreal;
+                    font-size: 15px;
+                    text-align: center;
+
+                }
+            }
+
+            .lookbook-item {
+                width: 43%;
+
+                .line {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                .empty {
+                    color: #384353;
+                    height: 40px;
+                }
+
+                .item,
+                .description {
+                    font-family: Neue Montreal sm;
+                    font-size: 12px;
+                    letter-spacing: 0.1em;
+                    text-align: left;
+                    padding: 15px 15px 0 15px;
+                }
+
+                .second-line {
+                    .item-photo {
+                        background-color: #E0E0E0;
+                        /* width: 582px; */
+                        /* height: 561px; */
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        .card {
+                            border: none;
+
+                            .card-body {
+                                background-color: #E0E0E0;
+                                display: flex;
+                                justify-content: space-between;
+
+                                p {
+                                    a {
+                                        text-decoration: none;
+                                        color: #323334;
+                                        font-size: 12px;
+                                        font-family: Neue Montreal md;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .secondary {
+            padding-bottom: 50px;
+
+            h2 {
+                color: #E0E0E0;
+            }
+
+            a {
+                color: #E0E0E0;
+            }
+
+            .products {
+                width: 100%;
+
+                .row {
+                    column-gap: 30px;
+                    width: 95%;
+
+                    .col {
+                        width: 330px;
+
+                        .card {
+                            border-radius: 0;
+
+                            .card-body {
+                                display: flex;
+                                justify-content: space-between;
+                                background-color: #384353;
+
+                                p {
+                                    font-family: Neue Montreal;
+                                    font-size: 12px;
+                                    line-height: 14px;
+                                    letter-spacing: 0.1em;
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 376px) {
+
+    .lookbook {
+        background-color: #384353;
+        color: #F5F4F3;
+        width: 100%;
+
+        .inside-lookbook {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .lookbook-title {
+                display: none;
+            }
+
+            .d-flex {
+                vr {
+                    display: none;
+                }
+            }
+
+            .lookbook-text {
+                width: 343px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+                flex-wrap: wrap;
+
+                h3 {
+                    width: 158px;
+                    
+                }
+
+                p {
+                    width: 343px !important;
+
+                }
+            }
+
+            .lookbook-item {
+                .line {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                }
+
+                .empty {
+                    color: #384353;
+                    height: 40px;
+                }
+
+                .item,
+                .description {
+                    font-family: Neue Montreal sm;
+                    font-size: 12px;
+                    letter-spacing: 0.1em;
+                    text-align: left;
+                    padding: 15px 15px 0 15px;
+                }
+
+                .second-line {
+                    .item-photo {
+                        background-color: #E0E0E0;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        .card {
+                            border: none;
+                            width: 343px;
+                            height: 561px;
+
+                            img {
+                                width: 303px;
+                                height: 422px;
+                            }
+
+                            .card-body {
+                                width: 303px;
+                                background-color: #E0E0E0;
+                                display: flex;
+                                justify-content: space-between;
+
+                                p {
+                                    a {
+                                        text-decoration: none;
+                                        color: #323334;
+                                        font-size: 12px;
+                                        font-family: Neue Montreal md;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .secondary {
+            padding-bottom: 50px;
+
+            h2 {
+                color: #E0E0E0;
+            }
+
+            a {
+                color: #E0E0E0;
+            }
+
+            .products {
+                width: 100%;
+
+                .row {
+                    column-gap: 30px;
+                    width: 100%;
+
+                    .col {
+                        width: 330px;
+
+                        .card {
+                            border-radius: 0;
+
+                            .card-body {
+                                display: flex;
+                                flex-wrap: wrap;
+                                justify-content: space-between;
+                                background-color: #384353;
+
+                                p {
+                                    font-family: Neue Montreal sm;
+                                    font-size: 12px;
+                                    line-height: 14px;
+                                    letter-spacing: 0.1em;
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,149 @@
+header {
+    background-image: url("/images/bg1.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 16px;
+        align-items: center;
+
+        .left-side {
+            display: flex;
+            gap: 15px;
+        }
+    }
+
+    .right-side {
+        display: flex;
+        gap: 10px;
+
+        b {
+            a {
+                background-color: #384353;
+                border-radius: 50%;
+                padding: 5px 10px;
+
+            }
+        }
+    }
+
+
+    .slogan {
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 38px;
+
+        h1 {
+            font-family: Reckless Neue;
+            font-size: 90px;
+            color: white;
+        }
+
+        button{
+            border: none;
+            border-radius: 8px;
+            padding: 8px 36px;
+            font-size: 12px;
+            font-family: Neue Montreal md;
+            letter-spacing: 0.1em;
+           
+
+
+            &:hover{
+                background-color: #384353;
+                color: white;
+                transition: 0.3s;
+            }
+        }
+    }
+
+
+}
+
+.link {
+    font-family: Neue Montreal;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 376px) {
+    header {
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 16px;
+            align-items: center;
+    
+            .left-side {
+                display: flex;
+                gap: 15px;
+            }
+        }
+    
+        .right-side {
+            display: flex;
+            gap: 10px;
+    
+            b {
+                a {
+                    background-color: #384353;
+                    border-radius: 50%;
+                    padding: 5px 10px;
+    
+                }
+            }
+        }
+    
+
+        .slogan {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+
+            h1 {
+                font-family: Reckless Neue;
+                font-size: 30px;
+                color: white;
+            }
+
+            button{
+                border: none;
+                font-size: 12px;
+                border-radius: 8px;
+                padding: 8px 36px;
+                font-family: Neue Montreal;
+                letter-spacing: 0.1em;
+               
+    
+    
+                &:hover{
+                    background-color: #384353;
+                    color: white;
+                    transition: 0.3s;
+                }
+            }
+        }
+    }
+}

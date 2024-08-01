@@ -1,0 +1,50 @@
+main {
+    .chairs-tables {
+        background-image: url("/images/bg3.png");
+        width: 100%;
+        height: 1081px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+       
+            .first-chair {
+                position: absolute;
+                padding: 193px 110px;
+            }
+
+            .second-chair {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                padding:120px 80px;
+            }
+        
+    }
+}
+
+@media (max-width: 376px) {
+    main {
+        .chairs-tables {
+            background-image: url("/images/bg3.png");
+            width: 100%;
+            height: 1081px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+       
+    
+                .first-chair {
+                    position: absolute;
+                    padding: 193px 80px;
+                }
+    
+                .second-chair {
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    padding:120px 80px;
+                }
+            
+        }
+    }
+}

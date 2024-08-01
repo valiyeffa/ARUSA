@@ -1,0 +1,104 @@
+.detail-matter {
+
+    .inside-detail-matter {
+        display: flex;
+
+        .detail-title {
+            width: 5%;
+            margin-top: 1080px;
+
+            p {
+                font-family: Reckless Neue;
+                font-size: 24px;
+                letter-spacing: -0.02em;
+                text-align: center;
+                transform: rotate(-90deg);
+            }
+        }
+
+        .detail-matter-main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+
+            .detail-matter-text {
+                width: 590px;
+                margin: 100px 0;
+
+                h2 {
+                    font-family: Reckless Neue;
+                    font-size: 72px;
+                    letter-spacing: -0.05em;
+
+                }
+
+                p {
+                    width: 506px;
+                    font-family: Neue Montreal;
+                    font-size: 15px;
+                    text-align: center;
+                }
+
+                small {
+                    width: 569px;
+                    font-family: Neue Montreal sm;
+                    font-size: 12px;
+                    letter-spacing: 0.1em;
+
+                }
+
+            }
+
+            .detail-image-cards {
+                display: flex;
+                justify-content: space-around;
+                gap: 30px;
+                flex-wrap: wrap;
+
+                .first-img {
+                    width: 972px;
+                    height: 677px;
+                }
+
+                .right-side {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+
+                    .scnd-img {
+                        width: 349px;
+                        height: 260px;
+                    }
+
+                    .thrd-img {
+                        width: 349px;
+                        height: 385px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* -----------------------------------LAST BACKGROUN PHOTO-------------------------------- */
+
+.last-bckgr {
+    background-image: url(/images/bg4.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+@media (max-width: 376px) {}
